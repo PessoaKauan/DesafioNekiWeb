@@ -1,0 +1,11 @@
+.Voltar{
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color:  #233653;
+    font-size: 36px; 
+    margin-left: 1%;
+    z-index: 10;
+}

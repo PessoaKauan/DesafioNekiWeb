@@ -1,0 +1,18 @@
+.Sair{
+    height: 6vh;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    background-color: transparent;
+    margin-right: 2%;
+}
+
+.Sair:hover{
+    background-image: linear-gradient(to top, #233653, #2c4f81);
+    border-color: #fff;
+    border-radius: 10px;
+    border: 2px;
+    border-style: groove;
+}
