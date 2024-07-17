@@ -1,0 +1,69 @@
+.skill {
+    background-color: white;
+}
+
+.dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    width: 30vw;
+    height: 50vh;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+}
+
+.botaoskill {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    /* Sombra */
+    background-image: linear-gradient(to bottom, #233653, #2c4f81);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 15%;
+}
+
+.botaoskill:hover {
+    border: 2px solid #2a8894;
+    background-image: linear-gradient(to top, #233653, #2c4f81);
+}
+
+.dialogInput {
+    display: flex;
+    justify-content: center;
+}
+
+.dialogTitle {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.botaoConfirmar {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom, #233653, #2c4f81);
+    cursor: pointer;
+
+}
+
+.divbotaoconfirmar {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+.dialogSkill {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+}
